@@ -32,7 +32,9 @@ connectDB();
 const allowedOrigins = [
   "http://localhost:5173",            
   "http://localhost:3011",             
-  "https://resume-analyser-mwlu.onrender.com" 
+  "https://resume-analyser-mwlu.onrender.com",
+  'https://resumeanalyser-psi.vercel.app',
+  'https://resumeanalyser-psi.vercel.app/'
 ];
 
 // Middleware
