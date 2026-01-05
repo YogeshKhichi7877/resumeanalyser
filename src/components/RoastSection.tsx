@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Flame, AlertTriangle } from 'lucide-react';
 
-let ApiUrl = 'http://localhost:3011'
+let ApiUrl = 'https://resume-analyser-mwlu.onrender.com'
 
 interface RoastSectionProps {
   resumeText: string;
