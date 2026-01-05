@@ -14,7 +14,7 @@ import {
 } from 'lucide-react';
 import toast from 'react-hot-toast';
 
-let ApiUrl = 'http://localhost:3011'
+let ApiUrl = 'https://resume-analyser-mwlu.onrender.com'
 
 interface Resource {
   title: string;
