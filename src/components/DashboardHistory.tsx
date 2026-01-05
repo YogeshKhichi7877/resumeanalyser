@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Calendar, Star, TrendingUp, Eye, Trash2, Download } from 'lucide-react';
 import { AnalysisReport } from '../types/analysis';
 
-let ApiUrl = 'http://localhost:3011'
+let ApiUrl = 'https://resume-analyser-mwlu.onrender.com'
 
 interface DashboardHistoryProps {
   userEmail: string;
