@@ -3,7 +3,7 @@ import { Upload, FileText, ArrowRight, TrendingUp, TrendingDown, Minus, Trophy, 
 import { useDropzone } from 'react-dropzone';
 import { ResumeAnalysis } from '../types/analysis';
 
-let ApiUrl = 'http://localhost:3011'
+let ApiUrl = 'https://resume-analyser-ch1f.onrender.com'
 
 // --- Types matching your Backend Response ---
 interface BattleResult {
